@@ -1,8 +1,8 @@
 //! tests/health_check.rs
 
-use std::net::TcpListener;
-use sqlx::{PgConnection, Connection};
 use dotenvy::dotenv;
+use sqlx::{Connection, PgConnection};
+use std::net::TcpListener;
 use zero2prod::configuration::get_configuration;
 
 #[tokio::test]
