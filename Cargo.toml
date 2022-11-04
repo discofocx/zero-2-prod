@@ -18,6 +18,8 @@ reqwest = "0.11"
 serde = { version = "1", features = ["derive"]}
 config = "0.13"
 dotenvy = "0.15.6"
+uuid = { version = "1", features = ["v4"] }
+chrono = "0.4.15"
 
 [dependencies.sqlx]
 version = "0.6"
